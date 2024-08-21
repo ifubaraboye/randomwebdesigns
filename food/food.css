@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a {
+    color: #252B42
+}
+
+a:visited {
+    color: #252B42;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+ul {
+    display: flex;
+    
+}
+
+li {
+    list-style: none;
+    padding: 0 50px;
+}
+
+.food {
+    background-image: url('./img/showcase.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 619px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.download {
+    text-align: center;
+}
+
+.desc {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 73px;
+}
+
+.hungry {
+    display: block;
+    justify-content: center;
+    font-size: 58px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.appdownload {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 7px 0;
+}
+
+.downloadbtn {
+    text-align: center;
+    padding: 40px;
+}
+
+.play {
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    background-color: #FA4A0C;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+    border: none;
+}
+
+.appleapp {
+    width: 236px;
+    height: 68px;
+    color: white;
+    border: white;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: transparent;
+    background-clip: padding-box;
+}
+
+.phones {
+    text-align: center;
+    margin-top: -350px;
+    padding-right: 150px ;
+}
+
+.hori {
+    display: flex;
+}
+
+hr {
+    width: 884px;
+    margin: auto;
+    height: 3px;
+    color: #E4E4E4;
+    border: 3px solid;
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 44px;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.appworks {
+    display: flex;
+    align-items: center;
+    padding: 0 300px;
+}
+
+.accountcreate {
+    display: block;
+    color: #FA4A0C;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0;
+}
+
+.createlogin {
+    display: block;
+    font-size: 40px;
+    color: #252B42;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 0;
+}
+
+.accountcreated {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    color: #737373;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0;
+}
+
+.varieties {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+
+.varietiesshop {
+    padding-left: 170px;
+}
+
+.checks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+
+.checking {
+    padding-right: 170px;
+}
+
+.grocery {
+    background-image: url('/img/grocery.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 516px;
+    color: white;
+    text-align: center;
+}
+
+.grocery > h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 140px;
+}
+
+.grocery > p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px 0;
+}
+
+.playy {
+    width: 142px;
+    height: 64px;
+    border-radius: 15px;
+    background-color: #FA4A0C;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.applesapp {
+    width: 173px;
+    height: 60px;
+    color: white;
+    border: white;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: transparent;
+    background-clip: padding-box;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 46px 0;
+}
+
+footer > p {
+    font-size: 12;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: #5C5C5C;
+}
+
+.handles {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
