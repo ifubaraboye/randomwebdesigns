@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              'custom': "url(img/palette.png)", // Replace with your image URL
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+     <header class="flex items-center justify-between px-2 py-6 bg-[#F3FCF7] sm:px-0 md:px-28 lg:px-28">
+        <div class="flex items-center gap-x-7">
+          
+            <a href=""></a>
+            <div>
+              <img src="./img/foodieslogo.png" alt="" class="flex justify-start">
+            </div>
+
+            <div>
+              <img src="./img/menu.png" alt="" class="flex ml-10 justify-end sm:visible sm:ml-10 md:hidden lg:hidden lg:ml-0">
+            </div>
+        </div>
+        <nav class="gap-x-10 pr-24 hidden sm:hidden lg:visible lg:flex">
+            
+            <a href="#" class="relative flex flex-col items-center group hover:text-[#06C167]">
+              Home
+              <span class="absolute bottom-0 transform translate-y-3 h-2 w-2 bg-[#06C167] rounded-full opacity-0 group-hover:opacity-100"></span>
+            </a>
+            <a href="#" class="relative flex flex-col items-center group hover:text-[#06C167]">
+              About Us
+              <span class="absolute bottom-0 transform translate-y-3 h-2 w-2 bg-[#06C167] rounded-full opacity-0 group-hover:opacity-100"></span>
+            </a>
+            <a href="#" class="relative flex flex-col items-center group hover:text-[#06C167]">
+              Service Us
+              <span class="absolute bottom-0 transform translate-y-3 h-2 w-2 bg-[#06C167] rounded-full opacity-0 group-hover:opacity-100"></span>
+            </a>
+            <a href="#" class="relative flex flex-col items-center group hover:text-[#06C167]">
+              Our Company
+              <span class="absolute bottom-0 transform translate-y-3 h-2 w-2 bg-[#06C167] rounded-full opacity-0 group-hover:opacity-100 "></span>
+            </a>
+            <a href="#" class="relative flex flex-col items-center group hover:text-[#06C167]">
+              Pages
+              <span class="absolute bottom-0 transform translate-y-3 h-2 w-2 bg-[#06C167] rounded-full opacity-0 group-hover:opacity-100 "></span>
+            </a>
+          </nav>
+    </header> 
+
+     <main class="py-10">
+         <div class=" gap-x-32 items-center  bg-[#F3FCF7] -mt-10 pt-10 sm:block md:block lg:flex">
+            <div class="grid grid-cols-1 gap-2 gap-y-5 lg:px-28 ">
+                <h1 class="text-[51px] text-center font-semibold leading-[5rem] lg:text-[72px] lg:text-left px-1">We're Serious <br> For Food.</h1>
+                <p class="text-[16px] font-normal text-center sm:text-center md:text-center lg:text-left">We strive to provide a space where guests can connect with <br> themselves and explore their full potential, offering a safe place.</p>
+
+                <div class="bg-[#06C167] flex items-center mx-16 sm:mx-16 lg:mx-0 w-[200px] text-white h-[68px] justify-center cursor-pointer text-[16px] font-normal mb-36">
+                    <a href="" class="flex gap-x-7 items-center  ">Get Started <div><img src="./img/longarrow.png" alt=""></div></a>
+                </div>
+
+                <div class="flex gap-4 hidden lg:inline-flex sm:flex">
+                  <div><img src="/img/logoip1.png" alt=""></div><div><img src="./img/logoip2.png" alt=""></div><div><img src="./img/logoip3.png" alt=""></div>
+                </div>
+
+               
+
+            </div>
+
+            <div class="lg:hidden">
+              <img src="./img/ratings.png" alt="" class="absolute left-12 top-[930px] z-10">
+                <img src="./img/dots.png" alt="" class="absolute top-[890px] z-0 right-0 ">
+                <img src="./img/review.png" alt="" class="absolute left-12 top-[990px] z-10">
+                <img src="./img/woman.png" alt="" class="px-4">
+            </div>
+
+            <div class="hidden sm:hidden md:hidden lg:block">
+              <img src="./img/ratings.png" alt="" class="absolute left-[730px] top-[400px]">
+                <img src="./img/dots.png" alt="" class="absolute right-32 top-[590px]">
+                <img src="./img/review.png" alt="" class="absolute right-[100px] top-[340px]">
+                <img src="./img/woman.png" alt="">
+            </div>
+        </div> 
+
+         <section class="border-t-2 border-b-2  lg:w-[1170px] lg:mx-40 lg:my-32">
+          <div class="py-7 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-32 gap-y-24">
+            <div class="lg:flex lg:items-center gap-5 text-center lg:text-left sm:block md:block">
+              <img src="./img/truck.png" alt="" class="border-none rounded-md p-4 bg-[#F3FCF7] mx-12 mb-3 sm:mx-12 sm:mb-3 lg:mx-0 lg:mb-0">
+              <div>
+                <h2 class="text-[17px] font-medium">Free Shipping</h2>
+                <p class="text-[#1D1D1F] text-[14px] font-medium opacity-[75%]">Orders over $140</p>
+              </div>
+            </div>
+
+            <div class="lg:flex lg:items-center gap-5 text-center lg:text-left">
+              <img src="./img/wallet.png" alt="" class="border-none rounded-md p-4 bg-[#F3FCF7] mx-12 mb-3 sm:mx-12 sm:mb-3 lg:mx-0 lg:mb-0">
+              <div>
+                <h2 class="text-[17px] font-medium">Quick Payment</h2>
+                <p class="text-[#1D1D1F] text-[14px] font-medium opacity-[75%] lg:w-[140px] ">100% secure payment</p>
+              </div>
+            </div>
+
+            <div class="lg:flex lg:items-center gap-5 text-center lg:text-left">
+              <img src="./img/percent.png" alt="" class="border-none rounded-md p-4 bg-[#F3FCF7] mx-12 mb-3 sm:mx-12 sm:mb-3 lg:mx-0 lg:mb-0">
+              <div>
+                <h2 class="text-[18px] font-medium">Special Promo</h2>
+                <p class="text-[#1D1D1F] text-[14px] font-medium opacity-[75%]">Get special promo</p>
+              </div>
+            </div>
+
+            <div class="lg:flex lg:items-center gap-5 text-center lg:text-left">
+              <img src="./img/headphones.png" alt="" class="border-none rounded-md p-4 bg-[#F3FCF7] mx-12 mb-3 sm:mx-12 sm:mb-3 lg:mx-0 lg:mb-0">
+              <div>
+                <h2 class="text-[18px] font-medium">24/7 Support</h2>
+                <p class="text-[#1D1D1F] text-[14px] font-medium opacity-[75%]">Ready support</p>
+              </div>
+            </div>
+          </div>
+        </section> 
+
+         <section class="mb-36">
+          <div class=" justify-between  items-center  sm:block md:block lg:flex lg:px-48">
+            <div>
+              <img src="./img/green.png" alt="" class="border-x-8 px-9 pb-14 bg-[#F3FAFB] border-none">
+            </div>
+            <div class="l">
+              <h3 class="text-[15px] font-medium mt-16 text-center sm:text-center md:text-center lg:text-left">Our Benefit</h3>
+              <h4 class="text-[35px] font-medium leading-[4rem] py-5 lg:text-[60px] text-center sm:text-center md:text-center lg:text-left">The More Healthy <br> Food The Better</h4>
+
+              <div class="grid grid-cols-1 gap-y-3 py-4 mt-8 mx-7 sm:mx-7 md:mx-7 lg:mx-0">
+                <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> Be Alive With Veggie Food.</p>
+                <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> It's The Place To Be.</p>
+                <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> Nonstop Veggie Food.</p>
+                <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> The Best Silk Dish In Town.</p>
+                <p class="flex gap-5 text-[16px] font-normal"> <img src="./img/check.png" alt=""> Truffles, Egg & Pumpkin Spice.</p>
+              </div>
+
+            </div>
+          </div>
+        </section> 
+
+         <section class="mb-36">
+          <div class="sm:block md:block lg:hidden">
+            <img src="./img/smoothie.png" alt="" class="border-x-8 px-10 pb-14 bg-[#F3FAFB] border-none">
+          </div>
+          <div class="flex justify-between items-center gap-x-5 lg:px-40">
+            <div class="lg:pl-8">
+                <h2 class="font-medium text-[15px] py-2 text-center justify-center lg:text-left">Our Stars</h2>
+                <h3 class="font-semibold text-[35px] leading-[4rem] px-2 sm:px-2 md:px-0 lg:px-0 lg:text-[60px] lg:text-left flex ">Veggie Food Goes <br> On And Always On</h3>
+              <div class="sold gap-x-5 text-center  py-10 block sm:block lg:flex ">
+                  <div class="">
+                    <h1 class="text-[40px] font-bold text-[#06C167]">1,500</h1>
+                    <p class="text-[15px] font-medium opacity-[65%]">Sold Products</p>
+                  </div>
+                  <div class="">
+                    <h1 class="text-[40px] font-bold text-[#06C167]">500</h1>
+                    <p class="text-[15px] font-medium opacity-[65%]">Positive Feedbacks</p>
+                  </div>
+                  <div class="">
+                    <h1 class="text-[40px] font-bold text-[#06C167]">400</h1>
+                    <p class="text-[15px] font-medium opacity-[65%]">Official Stores</p>
+                  </div>
+                </div>
+                <div class="bg-[#06C167] flex items-center w-[200px] text-white h-[68px] justify-center cursor-pointer text-[16px] font-normal mx-14 sm:mx-14 lg:mx-0">
+                  <a href="" class="flex gap-x-4 items-center">Get Special Promo <div><img src="./img/longarrow.png" alt="" class="px-1"></div></a>
+              </div>
+            </div>
+
+            <div class="hidden sm:hidden lg:block">
+              <img src="./img/smoothie.png" alt="" class="border-x-8 px-10 pb-14 bg-[#F3FAFB] border-none">
+            </div>
+          </div>
+        </section> 
+
+         <section class="mb-36">
+          <div class="text-center mb-16">
+            <h2 class="text-[15px] font-semibold">Our Features</h2>
+            <h3 class="text-[35px] text-center font-medium sm:text-[35px] sm:text-center lg:text-[60px] ">Variety Of Veggie Foods</h3>
+          </div>
+
+          <div class="grid justify-center">
+              <div class="flex flex-wrap justify-center">
+                <img src="./img/carrot.png" alt="">
+                  <div class="border-2 bg-[#F0F1EC] border-[#06C167] w-[293px] h-[293px] py-7 px-7">
+                    <h2 class="text-[32px] font-semibold leading-[2.5rem] pt-4">Veggies Are <br> Forever</h2>
+                    <p class="text-[16px] font-normal py-3">We offer the following <br> services</p>
+                    <div class="flex border border-none bg-[#E6F9F0] py-1 w-[148px] items-center gap-3 justify-center">
+                      <a href="" class="text-[15px] font-semibold text-[#06C167]">Discover Now</a>
+                        <div>
+                          <img src="./img/arrowgreen.png" alt="">
+                        </div>
+                    </div>
+                  </div>
+                  <img src="./img/paw.png" alt="">
+                  <div class="border-2 bg-[#F0F1EC] border-[#06C167] w-[293px] h-[293px] py-7 px-7">
+                    <h2 class="text-[32px] font-semibold leading-[2.5rem] pt-4">Good For Your <br> Skin</h2>
+                    <p class="text-[16px] font-normal py-3">We offer the following <br> services</p>
+                    <div class="flex border border-none bg-[#E6F9F0] py-1 w-[148px] items-center gap-3 justify-center">
+                      <a href="" class="text-[15px] font-semibold text-[#06C167]">Discover Now</a>
+                        <div>
+                          <img src="./img/arrowgreen.png" alt="">
+                        </div>
+                    </div>
+              </div>
+          </div>
+
+          <div class="flex flex-wrap justify-center">
+            <div class="border-2 bg-[#F0F1EC] border-[#06C167] w-[293px] h-[293px] py-7 px-7">
+              <h2 class="text-[32px] font-semibold leading-[2.5rem] pt-4">Veggies Food <br> Groove</h2>
+              <p class="text-[16px] font-normal py-3">We offer the following <br> services</p>
+              <div class="flex border border-none bg-[#E6F9F0] py-1 w-[148px] items-center gap-3 justify-center">
+                <a href="" class="text-[15px] font-semibold text-[#06C167]">Discover Now</a>
+                  <div>
+                    <img src="./img/arrowgreen.png" alt="">
+                  </div>
+              </div>
+            </div>
+            <img src="./img/cranberry.png" alt="">
+
+
+            <div class="border-2 bg-[#F0F1EC] border-[#06C167] w-[293px] h-[293px] py-7 px-7">
+              <h2 class="text-[32px] font-semibold leading-[2.5rem] pt-4">That Comes <br> Close </h2>
+              <p class="text-[16px] font-normal py-3">We offer the following <br> services</p>
+              <div class="flex border border-none bg-[#E6F9F0] py-1 w-[148px] items-center gap-3 justify-center">
+                <a href="" class="text-[15px] font-semibold text-[#06C167]">Discover Now</a>
+                  <div>
+                    <img src="./img/arrowgreen.png" alt="">
+                  </div>
+              </div>
+        </div>
+              <img src="./img/lime.png" alt="">
+             
+      </div>
+        </section> 
+
+          <section class="grid justify-center mb-36">
+          <div>
+            <div class="py-9">
+              <h2 class="text-[15px] font-semibold text-center sm:text-center lg:text-left">Our Product</h2>
+              <h3 class="text-[35px] font-semibold text-center sm:text-center lg:text-[60px] lg:text-left">Most Popular Product</h3>
+            </div>
+
+          <div class=" justify-center gap-10  lg:flex grid sm:grid ">
+            <div class="border-2 w-[268px] h-[443px] border-[#76767540] hover:border-[#06C167] grid  justify-center">
+              <div>
+                <img src="./img/banana.png" alt="" class="pt-5">
+                <img src="./img/stars.png" alt="" class="px-10   pt-2">
+                <p class="text-[20px] font-medium pt-4 px-4">Summer Veganie</p>
+                <p class="text-[20px] px-14 py-4"> <span class="line-through text-[#767675] font-semibold">$25</span> <span class="text-[#06C167] font-medium">$29</span></p>
+                <div class="">
+                  <button class="flex items-center justify-center border-2 gap-4 w-[177px] h-[57px] border-[#06C167] text-[#06C167] font-medium">Buy Now <img src="./img/greenarrowlonger.png" alt=""></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 w-[268px] h-[443px] border-[#76767540] hover:border-[#06C167] grid  justify-center">
+              <div>
+                <img src="./img/paw2.png" alt="" class="pt-5">
+                <img src="./img/stars.png" alt="" class="px-10   pt-2">
+                <p class="text-[20px] font-medium pt-4 px-4">Greanie Seafood</p>
+                <p class="text-[20px] px-14 py-4"> <span class="line-through text-[#767675] font-semibold">$25</span> <span class="text-[#06C167] font-medium">$29</span></p>
+                <div class="">
+                  <button class="flex items-center justify-center border-2 gap-4 w-[177px] h-[57px] border-[#06C167] text-[#06C167] font-medium">Buy Now <img src="./img/greenarrowlonger.png" alt=""></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 w-[268px] h-[443px] border-[#76767540] hover:border-[#06C167] grid  justify-center">
+              <div>
+                <img src="./img/vocado.png" alt="" class="pt-5">
+                <img src="./img/stars.png" alt="" class="px-10   pt-2">
+                <p class="text-[20px] font-medium pt-4 px-4">Fresh Vegetable</p>
+                <p class="text-[20px] px-14 py-4"> <span class="line-through text-[#767675] font-semibold">$25</span> <span class="text-[#06C167] font-medium">$29</span></p>
+                <div class="">
+                  <button class="flex items-center justify-center border-2 gap-4 w-[177px] h-[57px] border-[#06C167] text-[#06C167] font-medium">Buy Now <img src="./img/greenarrowlonger.png" alt=""></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-2 w-[268px] h-[443px] border-[#76767540] hover:border-[#06C167] grid  justify-center">
+              <div>
+                <img src="./img/yus.png" alt="" class="pt-5">
+                <img src="./img/stars.png" alt="" class="px-10   pt-2">
+                <p class="text-[20px] font-medium pt-4 px-6">Fresh Meatyus</p>
+                <p class="text-[20px] px-14 py-4"> <span class="line-through text-[#767675] font-semibold">$25</span> <span class="text-[#06C167] font-medium">$29</span></p>
+                <div class="">
+                  <button class="flex items-center justify-center border-2 gap-4 w-[177px] h-[57px] border-[#06C167] text-[#06C167] font-medium">Buy Now <img src="./img/greenarrowlonger.png" alt=""></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+
+        <section class="grid justify-center">
+          <div class="bg-custom grid h-[459px] bg-no-repeat w-screen bg-center justify-center lg:w-[1192px] lg:bg-cover">
+            <h1 class="text-[35px] font-semibold w-[293px] text-center text-white pt-20 sm:w-[290px] sm:text-[35px] lg:text-[60px] lg:w-screen">Veggie Foods? Ingredients <br> You Want To Try</h1>
+            <div class="grid justify-center pt-8 ">
+              <div class="bg-[#06C167] w-[293px] flex items-center  text-white h-[68px] justify-center cursor-pointer text-[16px] font-normal mb-36 lg:w-[200px]">
+              <a href="" class="flex gap-x-7 items-center">Get Started <div><img src="./img/longarrow.png" alt=""></div></a>
+              </div>
+          </div>
+          </div>
+        </section>
+    </main>
+
+     <footer class="mt-28 block text-center justify-evenly sm:block sm:text-center lg:flex">
+      <div class="">
+        <div class="flex justify-center sm:justify-center lg:justify-start ">
+          <img src="./img/foodieslogo.png" alt="" >
+        </div>
+        <p class="text-[16px] font-normal py-7 lg:text-left">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor </p>
+          <div class="flex gap-4 justify-center pb-3 sm:justify-center sm:pb-3 lg:justify-start lg:pb-0">
+            <img src="./img/facebook.png" alt=""><img src="./img/instagram.png" alt=""><img src="./img/twitter.png" alt="">
+          </div>
+      </div>
+
+      <div>
+        <h1 class="text-[24px] font-medium pb-6">About Us</h1>
+          <nav class="grid gap-y-3">
+            <a href="" class="text-[16px] font-normal list-none"><li>About Us</li></a>
+            <a href="" class="text-[16px] font-normal list-none"><li>Service Us</li></a>
+            <a href="" class="text-[16px] font-normal list-none"><li>Contact</li></a>
+            <a href="" class="text-[16px] font-normal list-none"><li>Company</li></a>
+          </nav>
+      </div>
+
+      <div>
+        <h1 class="text-[24px] font-medium pb-6">Company</h1>
+          <nav class="grid gap-y-3">
+            <a href="" class="text-[16px] font-normal list-none"><li>Partnership</li></a>
+            <a href="" class="text-[16px] font-normal list-none"><li>Terms of Use</li></a>
+            <a href="" class="text-[16px] font-normal list-none"><li>Privacy</li></a>
+            <a href="" class="text-[16px] font-normal list-none"><li>Sitemap</li></a>
+          </nav>
+      </div>
+
+      <div>
+        <h1 class="text-[24px] font-medium pb-6 pt-3 lg:text-start lg:pt-0">Get in touch</h1>
+        <p  class="pb-5 lg:text-left">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor</p>
+        <div class=" flex justify-center lg:justify-start  ">
+          <form action="">
+            <input type="email" name="" id="" placeholder="Email" class="p-2 bg-[#F0F1EC] focus:outline-none w-52 text-center lg:text-start ">
+            <button type="submit" class="border-2  bg-[#06C167] border-none text-white text-[14px] font-normal block my-2 w-52 p-3 lg:inline lg:w-20 lg:p-2">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      
+    </footer>
+    <p class="flex justify-center mt-12 mb-6 text-[16px] font-medium">Copyright &copy; 2021 Foodies.</p>
+</body>
+</html>
